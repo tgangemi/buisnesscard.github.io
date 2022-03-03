@@ -125,4 +125,8 @@ svg:hover{
   animation-duration: 1s; /* don't forget to set a duration! */
 }
 
+a{
+  text-decoration: none;
+}
+
 
