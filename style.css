@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;
+    border:dashed; */
+    }
+
+body {
+  background-image: url("assets/");
+    background-color: #EDDED1;
+}
+/* the main container */
+/* styling that will be on both cards */
+.card{
+ width:410px;
+ height:750px;
+  margin: 3em auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgb(255, 255, 255);
+  border-radius: 25px;
+  background-color: #D8B898;
+  background-size: cover;
+  background-position: center;
+}
+
+/* styling that will be on just front */
+.front-card{
+  background-image: url("assets/Front.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+ 
+.back-card {
+  /* styling that will be on just back */
+  background-image: url("assets/Back.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  /* to left align text */
+  font-size: 40pt;
+  color: rgb(70, 45, 25);
+  text-align: center;
+  
+
+font-family: 'Nunito';
+}
+
+.back-text {
+  margin-top: 50%;
+  margin-left:20%;
+}
+
+h2{
+  font-size: 26pt;
+  font-family: 'Nunito';
+  margin-top: 110pt;
+  margin-left: 52pt;
+  color: rgb(70, 45, 25);
+}
+
+h3{
+  font-size: 16pt;
+  font-family: 'Nunito';
+  margin-left: 53pt;
+  margin-top: 5pt;
+  color: rgb(70, 45, 25);
+}
+
+h4{
+  font-size: 13pt;
+  font-family: 'Nunito';
+  font-weight: lighter;
+  margin-left: 80pt;
+  margin-top: 28pt;
+  color: rgb(70, 45, 25);
+}
+
+h5{
+  font-size: 13pt;
+  font-family: 'Nunito';
+  font-weight: lighter;
+  margin-left: 80pt;
+  margin-top: 8pt;
+  color: rgb(70, 45, 25);
+}
+
+h6{
+  font-size: 13pt;
+  font-family: 'Nunito';
+  font-weight: lighter;
+  margin-left: 80pt;
+  margin-top: 8pt;
+  color: rgb(70, 45, 25);
+  
+}
+
+.text-container-front{
+  background-color: #EDDED1;
+  width: 70%; 
+  height: 20%;
+  margin: 0 auto;
+  margin-top: 230pt;
+  background-position: center;
+  
+}
+
+  .icon-container{
+  width:6%;
+  height:13%;
+  gap: 1px;
+  display:grid;
+  margin-top: -22.5%;
+  margin-left: 18%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  }
+
+
+svg:hover{
+  fill:rgb(117, 168, 189);
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+
